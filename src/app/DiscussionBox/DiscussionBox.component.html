@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> VAcademy </title>
+        
+    </head>
+    <body>
+        <header class="qq">
+            <h1> Ask a Query ? </h1>
+        </header>
+        <section class="qe">
+            <article>
+                <section class="p">
+                    <form>
+                        <input type="text" placeholder="Enter the Stream/Subject">
+                        <button type="submit"> Go </button>
+                    </form> 
+                </section>
+                <div class="dr">
+    <textarea name="Ask a query" id="" cols="30" rows="5" 
+    [(ngModel)]="queryTxt"> Ask a Query </textarea> 
+                </div>
+                <div class="w">
+        <button type="submit" (click)="postTheQuery(queryTxt)"> post query </button>  
+                </div>
+            </article> 
+        </section>
+
+        <div class="container">
+        <div class="row">
+            <div class="col-lg-4">
+                <div id="postedQueries" style="margin-top: 6%; margin-left: 10%;">
+                    <!-- {{ queryTxt }} -->
+                </div>
+            </div>
+        </div>
+    </div>
+    </body>
+</html>

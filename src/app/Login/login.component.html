@@ -1,0 +1,50 @@
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> 
+
+<div class="container">
+    
+    <div class="row">
+        <div class="col-lg-6 col-lg-offset-2" style="margin-top: 13%;">
+          <!-- panel info -->
+  <div class="panel panel-info">
+
+    <!-- panel heading -->
+    <div class="panel-heading">Login !!!
+        <button data-purpose="close-popup" aria-label="Close" 
+        type="button" class="close btn btn-default">
+            <span aria-hidden="true">×</span></button>
+    </div>
+    
+    <!-- panel body -->
+    <div class="panel-body">
+    <form>
+        <div class="form-group">
+            <label for="uname">UserName:</label>
+            <input type="text" class="form-control" id="uname" 
+            [(ngModel)]="userName" placeholder="Enter UserName">
+        </div>
+    <div class="form-group">
+        <label for="pwd">Password:</label>
+        <input type="password" class="form-control" id="pwd" 
+        placeholder="Enter password">
+        </div>
+        <button class="btn btn-success" routerLink="/Home"
+        >Login</button>
+        </form>
+    
+</div>
+  
+<!-- panel footer -->
+<div class="panel-footer">
+  Don't have an Account   <button class="btn btn-info" routerLink="/Register">Register</button>
+</div>
+
+  
+
+</div>
+</div>
+</div>

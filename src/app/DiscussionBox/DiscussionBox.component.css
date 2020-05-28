@@ -1,0 +1,33 @@
+.qq{
+    background-color:rgb(16, 218, 167);
+    font-family: Arial;
+    margin-top: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-indent: 50px;
+}
+.qe{
+    margin-top: 50px;
+    border-style: solid;
+    border-color: ivory;
+    background-color: lavender;
+    padding-top: 20px;
+    padding-bottom: 25px;
+}
+.qe article .p{
+    margin-left: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 15px;
+}
+.qe article .dr{
+    margin-left: 50px;
+    margin-top: 20px;
+    padding-bottom: 15px;
+}
+.qe article .p button:hover{
+    background: grey;
+}
+.qe article .w{
+    margin-left: 190px;
+}

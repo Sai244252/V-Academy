@@ -1,0 +1,155 @@
+body{
+    text-align: center;
+    background-color: lightseagreen;
+  }
+  
+  .head-home{
+    padding-top: 50px;
+  }
+  
+  .home .home-img img{
+    text-align: center;
+    width: 150px;
+    border-radius: 50%;
+    margin-top: 10px;
+  }
+  
+  .search-bar{
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  
+  .my-courses{
+    background-color: white;
+    width: 600px;
+    border: 15px;
+    padding: 15px;
+    margin-left: 130px;
+    text-align: center;
+    margin-top: 15px;
+  }
+  
+  .courses-cp{
+    padding-left: 100px;
+     padding-right:100px;
+  }
+  
+  .com-courses{
+    text-align:center;
+    display:inline-block;width:45%; 
+    margin-top:15px; 
+    padding-top: 10px; 
+    padding-bottom: 20px;
+    margin-right: 15px; 
+     background-color: white;
+  }
+  .cimage1 img{
+    display:inline-block;
+    width:50%;
+    margin-top:20px; 
+    margin-bottom:30px; 
+     padding-top: 15px; 
+     padding-bottom: 15px;
+    background-color: white;
+  }
+  .cimage2 img{ 
+  display:inline-block;
+  width:50%;
+  margin-top:20px; 
+  margin-bottom:30px; 
+   padding-top: 15px; 
+   padding-bottom: 15px;
+  background-color: white;
+  }
+  
+  .cimage3 img{  
+    display:inline-block;
+    width:50%;
+    margin-top:20px; 
+    margin-bottom:30px; 
+     padding-top: 15px; 
+     padding-bottom: 15px;
+    background-color: white;
+  }
+  
+  .pop-courses{
+    text-align:center;
+    display:inline-block;
+    width:47%;
+    margin-top:15px; 
+    padding-top: 10px; 
+    padding-bottom: 20px;
+    background-color: white
+  }
+  
+  .pimage1 img{
+    text-align:center;
+    display:inline-block;
+    width:10%;
+    
+    margin-top:10px; 
+    margin-bottom:10px; 
+     padding-top: 10px; 
+     padding-bottom: 5px;
+    background-color: white;
+  }
+  
+  .pimage2 img{
+    text-align:center;
+    display:inline-block;
+    width:10%;
+    margin-top:10px; 
+    margin-bottom:10px; 
+     padding-top: 10px; 
+     padding-bottom: 5px;
+    background-color: white;
+  }
+  
+  .pimage3 img{
+    text-align:center;
+    display:inline-block;
+    width:10%;
+    margin-top:10px; 
+    margin-bottom:10px; 
+     padding-top: 10px; 
+     padding-bottom: 5px;
+    background-color: white;
+  }
+  
+  
+  .acti{
+    padding-left: 100px;
+     padding-right:100px; 
+    }
+    
+    .recent-act{
+    text-align:center;
+    display:inline-block;width:45%; 
+    margin-top:15px; 
+    padding-top: 10px; 
+    padding-bottom: 20px;
+    margin-right: 15px; 
+     background-color: white;
+    }
+    
+    .topics{
+    text-align:center;
+    display:inline-block;
+    width:47%;
+    margin-top:15px; 
+    padding-top: 30px; 
+    padding-bottom: 20px;
+    background-color: white
+    }
+    
+  
+  .skills{
+    background-color: white;
+    width: 700px;
+    border: 15px;
+    padding: 15px;
+    margin-left: 70px;
+    text-align: center;
+    margin-top: 15px; 
+    margin-bottom: 15px;
+  }

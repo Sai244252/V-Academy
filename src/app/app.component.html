@@ -1,0 +1,167 @@
+
+
+<!DOCTYPE html>
+<html>  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href='https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css'>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> 
+        <style>
+          .navbar {
+            margin-bottom: 0;
+            border-radius: 0;
+          }
+
+        
+          .flexclass :hover{
+              background-color: white;
+              color : black;
+              font-weight: 600;
+
+          }  
+         
+          #middle{
+            opacity: 1.1;
+          }
+
+          
+        </style>
+      </head>
+  <body>
+
+   <nav class="navbar  navbar " >
+    <div class="container-fluid">
+      <div class="navbar-header" >
+        <button type="button" class="navbar-toggle" data-toggle="collapse"
+         data-target="#myNavbar" >
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+        </button>
+        <a class="navbar-brand" routerLink="/Home"  style="color:black">V-Academy</a>
+      </div> 
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <!-- <ul class="nav navbar-nav navclass" >
+          <li><a href="#" style="color:black" >Study Materials</a></li> 
+          <li><a href="#" style="color:black">Videos</a></li>
+          <li><a href="#" style="color:black">Contact</a></li>
+        </ul> -->
+        
+        
+        <ul class="nav navbar-nav navbar-right">
+          <li><a  style="color:black" id="myProfile" >
+            <!-- {{'Hello'+" "}} {{userName +' '}} -->
+            <div routerLink='/Register'>Register
+            <span class="glyphicon glyphicon-user"> 
+          </span></div></a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+<div style="background-color:lightseagreen" id="middle">
+<div class="container-fluid" >
+  <div class="col-lg-2 col-sm-2 ">
+  <div class="d-flex flex-column flexclass" 
+  style="background-color :#222; color:#fff;
+   margin-left: -16%; ">
+    <div  style="padding:10%; ">
+      <input type="button" 
+      (click)="Clicked('home')" 
+      style="padding: 0;background: none; border :none;" 
+      routerLink = "/Home" value="Home">
+
+    </div>
+    <div style="padding:10%;"  >
+      <button 
+      (click)="Clicked('dashBoard') " 
+      style="padding: 0;background: none; border :none;"
+      routerLink = "/DashBoard">DashBoard</button></div>
+
+      <div  style="padding:10%;"  >
+        <button 
+        (click)="Clicked('video')" 
+        style="padding: 0;background: none; border :none;"
+        routerLink = "/Videos">Videos</button>
+      </div>
+
+      
+    <div  style="padding:10%;"  >
+      <button 
+      (click)="Clicked('discussion')" 
+      style="padding: 0;background: none; border :none;"
+      routerLink = "/DiscussionBox">Discussion Box</button>
+    </div>
+
+    <div  style="padding:10%;"  >
+      <button 
+      (click)="Clicked('mocktests')" 
+      style="padding: 0;background: none; border :none;"
+      routerLink = "/MockTests">Mock Tests</button>
+    </div>
+  </div>
+</div>
+
+<div>
+  
+  <div class="col-lg-8 col-sm-8">
+    
+    <div  routerLink="/Register">
+    </div>
+
+    <div *ngIf = "compName === 'home'">
+      
+      <router-outlet></router-outlet>
+  </div>
+
+  <div *ngIf = "compName === 'dashBoard'">
+      
+    <!-- <app-dashBoard [receievedUserName]="userName" routerLink="/DashBoard"></app-dashBoard> -->
+   <router-outlet></router-outlet> 
+</div>
+
+<div *ngIf = "compName === 'video'">
+
+  <router-outlet></router-outlet>
+
+</div>
+<div *ngIf = "compName === 'discussion'">
+
+  <router-outlet></router-outlet>
+
+</div>
+
+<div *ngIf = "compName === 'mocktests'">
+
+  <router-outlet></router-outlet>
+
+</div>
+
+    </div>
+
+  <!-- <div class="col-lg-2 col-sm-2">
+    <p>This is other content </p>
+
+</div> -->
+</div>
+</div>  
+
+<footer class="container-fluid "
+ style=" background : rgb(29, 28, 28); 
+font-size:15px;padding:10px 10px 10px 10px; 
+text-align:center; margin-top : 25%; margin-bottom : -2%;
+ font-weight: 600;" 
+ [style.color] = "'whi' + 'te'">
+  <p>
+    © V-Academy</p>
+</footer>
+</div>
+
+</body>
+</html>
+
+

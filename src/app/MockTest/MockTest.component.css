@@ -1,0 +1,75 @@
+.main{
+    background-color: lightseagreen;
+}
+
+
+.hd{
+    background-color: mediumaquamarine;font-family: Arial;
+    padding-top: 0.5px;
+    padding-bottom: 0.5px;
+    margin-top: 3%;
+    font-size: 20px;
+    text-indent: 50px;
+}
+
+
+.acti{
+    padding-left: 100px;
+     padding-right:100px;
+     margin-top: 15px;
+     margin-bottom: 15px; 
+    }
+    
+ .recent-act{
+        text-align:center;
+  display:inline-block;width:45%; 
+  margin-top:15px; 
+  padding-top: 10px; 
+  padding-bottom: 20px;
+  margin-right: 15px; 
+   background-color: whitesmoke;
+    }
+    
+ .mat{
+        text-align:center;
+        display:inline-block;
+        width:22%;
+        padding-top: 20px;
+        
+        padding-right: 10px;
+        padding-left: 10px;
+        
+    }
+    
+.sci{
+        margin-left: 25px;
+        margin-right: 25px;
+        text-align:center;
+        display:inline-block;
+        width:30%;
+        padding-top: 30px; 
+        
+        
+    }
+.topics{
+    text-align:center;
+    display:inline-block;
+    width:47%;
+    margin-top:15px; 
+    padding-top: 10px; 
+    padding-bottom: 20px;
+    background-color: whitesmoke;
+        }
+
+
+.tests{
+    background-color: whitesmoke;
+    text-align: center;
+  width: 700px;
+  border: 15px;
+  padding: 15px;
+  margin-left: 60px;
+  margin-top: 15px; 
+  margin-bottom: 15px;
+}
+

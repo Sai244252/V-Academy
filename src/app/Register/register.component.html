@@ -1,0 +1,67 @@
+
+  
+<div class="container">
+    
+    <div class="row">
+        <div class="col-lg-6 col-lg-offset-2" style="margin-top: 5%;">
+          <!-- panel info -->
+  <div class="panel panel-info">
+
+    <!-- panel heading -->
+    <div class="panel-heading">Register and Start Learning!
+        <button data-purpose="close-popup" aria-label="Close" 
+        type="button" class="close btn btn-default">
+            <span aria-hidden="true">×</span></button>
+    </div>
+    
+    <!-- panel body -->
+    <div class="panel-body">
+  <form #userForm = "ngForm">
+ <!-- {{ userName }} -->
+    <!-- {{ userForm.value | json}} -->
+    <div class="form-group">
+        <label for="uname">UserName:</label>
+        <input type="text" class="form-control" id="uname" name="username"
+        placeholder="Enter UserName" [(ngModel)]="userName">
+      </div>
+  <div class="form-group">
+      <label for="pwd">Password:</label>
+      <input type="password" class="form-control" id="pwd" name="password"
+      placeholder="Enter password" ngModel>
+    </div>
+    <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" class="form-control" id="email" name="email"
+        placeholder="Enter email" ngModel>
+      </div>
+      <div class="form-group">
+        <label for="pname">Parent Name:</label>
+        <input type="text" class="form-control" id="pname" name="Parent_Name"
+        placeholder="Enter Parent Name" ngModel>
+      </div>
+      <div class="form-group">
+        <label for="pcon">Parent Contact:</label>
+        <input type="text" class="form-control" id="pcon" name=""Parent_Contact
+        placeholder="Enter Parent Contact" ngModel>
+      </div>
+      
+    <div class="checkbox">
+      <label><input type="checkbox"> Remember me</label>
+    </div>
+    <button class="btn btn-primary">Register</button>
+  </form>
+
+</div>
+  
+<!-- panel footer -->
+<div class="panel-footer">
+  Already have an account? 
+  <button class="btn btn-info"
+  routerLink="/Login">Log In</button>
+</div>
+
+  
+
+</div>
+</div>
+</div>
