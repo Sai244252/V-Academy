@@ -13,7 +13,6 @@ import { discardPeriodicTasks } from '@angular/core/testing';
 import { DisscussionBoxComponent } from './DiscussionBox/DiscussionBox.component';
 import { MockTestComponent } from './MockTest/MockTest.component';
 import { FormsModule } from '@angular/forms';
-// import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 // import { MatDialog, MatDialogConfig} from '@angular/material/dialog';
 
 
@@ -37,7 +36,7 @@ const appRoutes : Routes =[
     DashBoardComponent,
     RegisterComponent,
     LoginComponent,
-    DisscussionBoxComponent
+    DisscussionBoxComponent,
     // MatDialog,
     // MatDialogConfig
   ],
@@ -46,7 +45,6 @@ const appRoutes : Routes =[
     BrowserModule,
     AppRoutingModule,
     RouterModule.forRoot(appRoutes),
-    // BrowserAnimationsModule ,
     // MatDialog,
     // MatDialogConfig
   ],

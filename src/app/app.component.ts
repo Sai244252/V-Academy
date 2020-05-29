@@ -11,4 +11,5 @@ export class AppComponent {
     Clicked(comp){
         this.compName = comp;
     }
+    
 }
